@@ -1,4 +1,8 @@
 class Calculator :
+    @staticmethod
+    def greet():
+        print(f'Good Morning... {a.name}')
+
     def __init__(self, n):
         self.n = n
 
@@ -13,6 +17,8 @@ class Calculator :
 
 
 a = Calculator(16)
+
+a.greet()
 a.calc_sq()
 
 a = Calculator(12)
